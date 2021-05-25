@@ -10,14 +10,25 @@
 	height: 80px;
 	background: #aaa;
 	padding: 10px 20px;
+	/*padding:eixo y, eixo x;*/
 	border-bottom: 10px solid #000;
+	/*border-style:dotted; só funcioona se o border normal já estiver declarado*/
+
+	/*	border: 10px  solid #000;
+ cria uma boda em torno da div*/
 }
+	/**/
 
 .box-2 {
 	width: 200px;
 	height: 80px;
 	background: #aaa;
 	padding: 10px 20px;
-	border-bottom: 10px solid #000;
+	border-top: 10px solid #000;
+	border-top-style: dotted;
+
+	border-right: 10px solid #000;
+	border-style:dashed;
+
 	margin: 50px 20px;
 }
